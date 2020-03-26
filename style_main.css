@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+#to_top a{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px;
+    font-size: .5em;
+    background-color: grey;
+    color: black;
+    text-decoration: none;
+    }
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topic {
+    width: 6em;
+    height: 6em;
+    padding: 1px;
+    background-color:darkgray;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px yellow);
+}
+
+
+img{
+    border-radius: 30px;
+    width: 6em;
+    height: 6em;
+}
+
+.mr-4{
+    margin:5px;
+}
+
+.topic:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.h3{
+    position: fixed;
+    bottom: 0;
+}
